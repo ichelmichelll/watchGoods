@@ -1,0 +1,273 @@
+*
+{
+	padding: 0px;
+    margin: 0px;
+}
+body
+{
+	background: url(images/contactusbackground.png);
+}
+#navbar-container
+{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 130px;
+}
+#navbar
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#navbar-left .main-button-left
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    padding-left: 265px;
+    margin-top: 100px;
+}
+#navbar-left .main-button-left h3
+{
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: #b1a296;
+    cursor: pointer;
+}
+#navbar-top #website-logo 
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: -36.7rem;
+}
+#navbar-right .main-button-right
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    padding-left: 80px;
+    margin-top: 100px;
+}
+#navbar-right .main-button-right h3
+{
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: #b1a296;
+    cursor: pointer;
+}
+.main-button-left h3::after
+{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background: #7e685a;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+.main-button-left h3:hover::after
+{
+    width: 100%;
+}
+.main-button-right h3::after
+{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background: #7e685a;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+.main-button-right h3:hover::after
+{
+    width: 100%;
+}
+#footer-container
+{
+    width: 100%;
+    height: 250px;
+    background-color: whitesmoke;
+    margin-top: 250px;
+}
+#footer-container #footer
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    column-gap: 410px;
+    padding-top: 70px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+#footer-container #footer #footer-left h3
+{
+    color: #57473d;
+}
+#footer-container #footer #footer-center h3
+{
+    color: #57473d;
+}
+#footer-container #footer #footer-right h3
+{
+    color: #57473d;
+}
+#footer-container p
+{
+    margin-left: 100px;
+}
+#footer-container img
+{
+    width: 20%;
+    height: auto;
+    margin-left: 565px;
+    margin-top: 50px;
+}
+#footer-container #footer h3::after
+{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background: #7e685a;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+#footer-container #footer h3:hover::after
+{
+    width: 100%;
+}
+
+
+
+.form_box
+{
+    width: 600px;
+    background: #b1a296;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 500px;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+.input-row
+{
+    position: relative;
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.input-row #agreement-checkbox
+{
+    position: absolute;
+}
+#agreenyeah
+{
+    margin-left: -572px;
+}
+#agree
+{
+    margin-top: -16px;
+    margin-left: -280px;
+}
+#agreement
+{
+    background-color: #b1a296;
+}
+.form_box input:not([type="submit"],[type="checkbox"]),
+.form_box textarea, 
+.form_box select
+{
+    width: 400px;
+    margin: 0 0 3px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.form_box input:not([type="submit"]), .form_box textarea,
+.form_box select
+{
+	font-family: 'Lora', serif;
+	width: 565px;
+}
+*::-webkit-input-placeholder 
+{
+    opacity: 0.5;
+}
+.form_box textarea
+{ 
+    height: 100px; 
+    resize: vertical;
+}
+.form_box input[type="submit"]
+{
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	border:0;
+	color: black;
+	background: whitesmoke;
+	margin: 0 auto;
+	display: block;
+}
+.form_box input[type="submit"]:hover
+{ 
+    background: #000; 
+    color: whitesmoke;
+}
+.input-row #message
+{
+    height: 200px;
+}
+.error
+{
+	display: block;
+	font-weight: 700;
+	font-size: 14px;
+	color: rgb(231, 21, 21);
+	display: none;
+}
+#submit
+{
+    margin-top: 40px;
+    width: 190px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+}
+#submit:hover
+{
+    background: black;
+    color: whitesmoke;
+    /* transition: 0.5s ease-in-out; */
+}
+.form_box textarea
+{
+    height: 70px;
+}
+#connect-with-us
+{
+    font-family: 'Lora', serif;
+    color: black;
+    margin-left: 568px;
+    margin-top: 60px;
+    font-size: 30px;
+}
+#background-image
+{
+    z-index: 1;
+    width: 700px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WatchGoods</title>
+<link rel="stylesheet" type="text/css" href="contactspage.css">
+</head>
+<body>
+    <div id="navbar-container">
+        <div id="navbar">
+            <div id="navbar-left">
+                <div class="main-button-left" id="left">
+                    <h3>
+                        <!-- <i class="fa-solid fa-house"></i> -->
+                        <a onclick="window.location.href='homepage.html'">HOME</a>
+                    </h3>
+                    <h3>
+                        <!-- <i class="fa-solid fa-tag"></i> -->
+                        <a onclick="window.location.href='productspage.html'">PRODUCTS</a>
+                    </h3>
+                    <h3>
+                        <!-- <i class="fa-solid fa-circle-info"></i> -->
+                        <a onclick="window.location.href='aboutuspage.html'">ABOUT US</a>
+                    </h3>
+                </div>
+            </div>
+            <div id="navbar-right">
+                <div class="main-button-right" id="right">
+                    <h3>
+                        <!-- <i class="fa-solid fa-building"></i> -->
+                        <a onclick="window.location.href='locationspage.html'">LOCATIONS</a>
+                    </h3>
+                    <h3>
+                        <!-- <i class="fa-solid fa-address-book"></i> -->
+                        <a onclick="window.location.href='contactspage.html'">CONTACT US</a>
+                    </h3>
+                </div>
+            </div>
+            <div id="navbar-top">
+                <div id="website-logo">
+                    <img src="images/logofinal.png">
+                </div>
+            </div>
+            
+        </div>
+        <!-- <img src="images/contactusbackground.jpg" id="background-image"> -->
+        
+        <div class="page-container">
+            <h1 id="connect-with-us">
+                CONNECT WITH US
+            </h1>
+            <!-- <p id="connect-paragraph">We would love to assist you with your needs, as well as your fascination for watches.</p> -->
+        </div>
+
+    <div class="container">
+        <form name="custom_form" id="customForm" onsubmit="return FormValidation()" action="testform.html">
+            <div class="form_box">
+                <div class="input-row">
+                    <input type="text" name="name" placeholder="Name*">
+                    <span class="error">Please Enter Your Name</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" name="email" placeholder="Email*">
+                    <span class="error">Please Enter Your Email</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" name="phone" placeholder="Phone*">
+                    <span class="error">Please Enter Your Phone Number</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" name="region" placeholder="Country Region*">
+                    <span class="error">Please Enter Your Region</span>
+                </div>
+                <div class="input-row">
+                    <input placeholder="Message*" name="message" id="message">
+                    <span class="error">Please Enter Your Message</span>
+                </div>		
+                <input type="checkbox" id="agreenyeah" name="agreenyeah "> 
+                <span class="agreement" id="agree">I agree to receive a copy of my message</span>
+                <input type="submit" value="Submit" name="" id="submit">
+            </div>
+        </form>
+    </div>
+
+    <div id="footer-container">
+        <div id="footer">
+            <div id="footer-left">
+            <h3>
+                <a onclick="window.location.href='aboutuspage.html'">ABOUT US</a>
+            </h3>
+            </div>
+            <div id="footer-center">
+            <h3>
+                <a onclick="window.location.href='contactspage.html'">CONTACT US</a>
+            </h3>
+            </div>
+            <div id="footer-right">
+            <h3>
+                <a onclick="window.location.href='locationspage.html'">LOCATIONS</a>
+            </h3>
+            </div>
+        </div>
+        <p>
+            __________________________________________________________________________________________________________________________________________________________
+        </p>
+        <img src="images/logofinal.png" alt="">
+    </div>
+</div>
+
+<script type="text/javascript" src="contactspage.js"></script>
+</body>
+</html>

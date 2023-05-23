@@ -1,0 +1,226 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar-container
+{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 130px;
+}
+#navbar
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#navbar-left .main-button-left
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    padding-left: 265px;
+    margin-top: 100px;
+}
+#navbar-left .main-button-left h3
+{
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: #b1a296;
+    cursor: pointer;
+}
+#navbar-top #website-logo 
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: -36.7rem;
+}
+#navbar-right .main-button-right
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    padding-left: 80px;
+    margin-top: 100px;
+}
+#navbar-right .main-button-right h3
+{
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: #b1a296;
+    cursor: pointer;
+}
+.main-button-left h3::after
+{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background: #7e685a;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+.main-button-left h3:hover::after
+{
+    width: 100%;
+}
+.main-button-right h3::after
+{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background: #7e685a;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+.main-button-right h3:hover::after
+{
+    width: 100%;
+}
+#about-us-container
+{
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+#about-us-container #about-us #about-us-right img
+{
+    width: 300px;
+    height: 200px;
+    padding-left: 980px;
+    padding-top: -200px;
+    z-index: 0;
+}
+#about-us-container #about-us #about-us-left h1
+{
+    padding-top: 140px;
+    padding-left: 100px
+}
+#about-us-container #about-us
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+#about-us-container #about-us #about-us-left p
+{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 100px;
+}
+#footer-container
+{
+    width: 100%;
+    height: 250px;
+    background-color: whitesmoke;
+    margin-top: 100px;
+}
+#footer-container #footer
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    column-gap: 410px;
+    padding-top: 70px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+#footer-container #footer #footer-left h3
+{
+    color: #57473d;
+}
+#footer-container #footer #footer-center h3
+{
+    color: #57473d;
+}
+#footer-container #footer #footer-right h3
+{
+    color: #57473d;
+}
+#footer-container p
+{
+    margin-left: 100px;
+}
+#footer-container img
+{
+    width: 20%;
+    height: auto;
+    margin-left: 565px;
+    margin-top: 50px;
+}
+#footer-container #footer h3::after
+{
+    content: ' ';
+    width: 0%;
+    height: 4px;
+    background: #7e685a;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+#footer-container #footer h3:hover::after
+{
+    width: 100%;
+}
+.about
+{
+    background: url(images/semoga\ final.png) no-repeat left;
+    background-size: 50%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 35px 0;
+    margin-left: -40px;
+    color: #57473d;
+}
+.inner-section
+{
+    width: 50%;
+    float: right;
+    background-color: #b1a296;
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1
+{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Lora', serif;
+    color: #57473d;
+}
+.text
+{
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-family: 'Lora', serif;
+}
+.skills button
+{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #57473d;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+}
+.skills button:hover
+{
+    transition: 1s;
+    background-color: whitesmoke;
+    color: #57473d;
+}
+
